@@ -1,6 +1,6 @@
 const CTA = () => {
   const handlePurchase = () => {
-    window.open('https://gumroad.com/l/YOUR_PRODUCT_LINK', '_blank');
+    window.open('https://topmate.io/mind_elevate/1880292', '_blank');
   };
 
   return (
@@ -16,7 +16,7 @@ const CTA = () => {
           onClick={handlePurchase}
           className="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-2xl text-gray-900 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transform transition-all hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          Get the Planner Now — ₹299
+          Get the Planner Now — ₹199
         </button>
         <p className="mt-4 text-sm text-gray-400">
           30-day money-back guarantee • Lifetime access • No subscriptions

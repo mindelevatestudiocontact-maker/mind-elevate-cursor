@@ -1,5 +1,5 @@
 const Contact = () => {
-  const email = 'hello@mind-elevate.com';
+  const email = 'mindelevate.studio.contact@gmail.com';
 
   return (
     <section id="contact" className="py-16 sm:py-24 bg-gray-50">
@@ -33,9 +33,6 @@ const Contact = () => {
               >
                 {email}
               </a>
-              <p className="mt-2 text-xs text-gray-400">
-                (Dummy email for demo purposes)
-              </p>
             </div>
           </div>
         </div>

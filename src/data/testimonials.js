@@ -3,7 +3,7 @@ export const testimonials = [
     id: 1,
     name: "Priya Sharma",
     role: "Entrepreneur",
-    content: "MindElevate transformed how I plan my weeks. The structure is perfect for balancing work and personal goals. Best ₹299 I've ever spent!",
+    content: "MindElevate transformed how I plan my weeks. The structure is perfect for balancing work and personal goals. Best ₹199 I've ever spent!",
     rating: 5
   },
   {
