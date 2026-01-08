@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,13 +27,11 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <button
-              onClick={() => scrollToSection('hero')}
-              className="text-2xl font-bold text-gray-900 hover:text-indigo-600 transition-colors"
-            >
-              MindElevate
-            </button>
+          <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
+            <img src={logo} alt="MindElevate Logo" className="h-12 md:h-14 w-auto" />
+            <span className="text-2xl font-bold text-gray-900 hover:text-indigo-600 transition-colors">
+            MindElevate
+          </span>
           </div>
 
           {/* Desktop Menu */}

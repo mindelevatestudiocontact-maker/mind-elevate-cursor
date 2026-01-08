@@ -1,13 +1,21 @@
 import img1 from "../assets/images/preview1.png";
 import img2 from "../assets/images/preview2.png";
 import img3 from "../assets/images/preview3.png";
-import img4 from "../assets/images/preview4.png";
+import img4 from "../assets/images/preview7.png";
+import img5 from "../assets/images/preview8.png";
+import img6 from "../assets/images/preview6.png";
+import img7 from "../assets/images/preview4.png";
+import img8 from "../assets/images/preview5.png";
 
 const previews = [
-  { img: img1, title: "Weekly Planning", height: "h-80" },
-  { img: img2, title: "Habit & Sleep Tracking", height: "h-64" },
-  { img: img3, title: "Distraction & Reflection", height: "h-72" },
-  { img: img4, title: "Monthly Overview", height: "h-96" },
+  { img: img1, title: "Weekly Habit & Sleep Tracking", height: "h-80" },
+  { img: img2, title: "Weekly Review", height: "h-64" },
+  { img: img3, title: "Weekly Energy & Mood Tracker", height: "h-72" },
+  { img: img4, title: "Distraction & Reflection Log", height: "h-96" },
+  { img: img5, title: "Wellness Scorecard", height: "h-80" },
+  { img: img6, title: "Monthly Overview – 2026", height: "h-64" },
+  { img: img7, title: "Monthly Overview – 2026", height: "h-72" },
+  { img: img8, title: "Monthly Gratitude Journal", height: "h-96" },
 ];
 
 
@@ -33,12 +41,15 @@ const Preview = () => {
       {/* Image area */}
       <div className="h-[300px] w-full bg-gray-100 flex items-center justify-center overflow-hidden">
         <img
-          src={p.img}
-          alt={p.title}
-          className="max-h-full max-w-full object-contain
-                     transform transition duration-300
-                     group-hover:scale-105"
-        />
+  src={p.img}
+  alt={p.title}
+  draggable={false}
+  onContextMenu={(e) => e.preventDefault()}
+  onDragStart={(e) => e.preventDefault()}
+  className="max-h-full max-w-full object-contain
+             transform transition duration-300
+             group-hover:scale-105 select-none pointer-events-none"
+/>
       </div>
 
       {/* Title */}

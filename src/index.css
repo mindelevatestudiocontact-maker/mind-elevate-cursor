@@ -6,3 +6,9 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (pointer: coarse) {
+  img {
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+}
