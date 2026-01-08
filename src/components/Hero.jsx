@@ -16,8 +16,9 @@ const Hero = () => {
             <span className="text-indigo-600">Master Your Life.</span>
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-gray-600">
-            The Growth OS Planner combines weekly planning, monthly overviews, and goal tracking
-            to help you build discipline and achieve your most important goals.
+            Download the ultimate productivity planner PDF with weekly planner printable,
+            monthly productivity planner, and habit tracker PDF for students and
+            professionals.
           </p>
           <div className="mt-10">
             <button
