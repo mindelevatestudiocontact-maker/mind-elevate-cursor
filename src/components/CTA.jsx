@@ -1,6 +1,6 @@
 const CTA = () => {
   const handlePurchase = () => {
-    window.open('https://topmate.io/mind_elevate/1880292', '_blank');
+    window.open('https://topmate.io/mind_elevate', '_blank');
   };
 
   return (
