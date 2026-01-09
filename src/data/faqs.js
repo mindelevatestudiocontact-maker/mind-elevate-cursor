@@ -7,7 +7,7 @@ export const faqs = [
   {
     id: 2,
     question: "Is this a one-time purchase?",
-    answer: "Yes! This is a lifetime access purchase. You pay once (₹199) and get the planner forever. No subscriptions, no recurring fees."
+    answer: "Yes! This is a lifetime access purchase. You pay once (₹59) and get the planner forever. No subscriptions, no recurring fees."
   },
   {
     id: 3,

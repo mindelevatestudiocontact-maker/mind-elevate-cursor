@@ -18,8 +18,8 @@ const Pricing = () => {
           <div className="rounded-2xl bg-gradient-to-br from-indigo-600 to-purple-600 p-8 sm:p-12 shadow-2xl transform hover:scale-105 transition-transform">
             <div className="text-center text-white">
               <div className="flex items-center justify-center gap-3 mb-2">
-                <span className="text-5xl font-extrabold">₹199</span>
-                <span className="text-2xl sm:text-3xl line-through opacity-70">₹399</span>
+                <span className="text-5xl font-extrabold">₹59</span>
+                <span className="text-2xl sm:text-3xl line-through opacity-70">₹299</span>
               </div>
               <div className="text-xl mb-6 opacity-90">Lifetime Access</div>
               <ul className="text-left space-y-4 mb-8 max-w-md mx-auto">
